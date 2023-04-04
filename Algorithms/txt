@@ -1,4 +1,4 @@
 At the moment there are only two algorithms
 1 - Deutsch - Joji algorithm
-2 - The Bernstein - Vasinari algorithm
-is not planned to write further algorithms yet due to the fact that the second simulator without additional packages is faster and better suited for analyzing methods
+2 - Bernstein - Vasinari algorithm
+More will be added in the near future!

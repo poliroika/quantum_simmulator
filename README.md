@@ -1,4 +1,4 @@
-# quantum_simmulator
+# Quantum_simmulator
 Quantum simulator on Python
 Quantum simulator on python, presented in two types. Implementation of some quantum algorithms on each of them. Since this is a personal project, for your own convenience, each of them is registered independently without calling functions from other programs
 # Branches:

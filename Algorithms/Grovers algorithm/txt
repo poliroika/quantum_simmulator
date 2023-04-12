@@ -1,0 +1,5 @@
+Grover's algorithm in two variations: the first solves the sat problem, for this case it was necessary to prescribe a good input, so
+you need to change the incoming data already inside the code, also if you need an expression not before the condition, then 
+you need to add (-) to the necessary it condition, if it is 0, then the number of this value needs to be changed to the number of the control qubit
+that does not take part in the sat recording of the problem. And the second kind of Grover solves the problem only if it can be represented in Boolean form, then
+it needs one iteration less, firstly, and secondly, extra qubit registers are not used. As much as possible in both variants C^3 NOT valves

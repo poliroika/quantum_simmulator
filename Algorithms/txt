@@ -1,5 +1,11 @@
-At the moment there are only two algorithms
+At the moment there is:
 1 - Deutsch - Joji algorithm
 2 - Bernstein - Vasinari algorithm
+3 - Quantum Fourier transform
+4 - Quantum phase Estimation
+5 - Grover 's algorithm
+  a - For sat problems
+  b - For problems representable in boolean form
+  ---
 More will be added in the near future!
 P.s For some reason, github incorrectly visualizes programs (cuts some blocks)

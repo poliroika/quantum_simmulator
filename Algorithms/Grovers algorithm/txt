@@ -3,3 +3,8 @@ you need to change the incoming data already inside the code, also if you need a
 you need to add (-) to the necessary it condition, if it is 0, then the number of this value needs to be changed to the number of the control qubit
 that does not take part in the sat recording of the problem. And the second kind of Grover solves the problem only if it can be represented in Boolean form, then
 it needs one iteration less, firstly, and secondly, extra qubit registers are not used. As much as possible in both variants C^3 NOT valves
+
+(¬x1 ∨ ¬x3 ∨ ¬x4) ∧ (x2 ∨ x3 ∨ ¬x4) ∧ (x1 ∨ ¬x2 ∨ x4) ∧ (x1 ∨ x3 ∨ x4) ∧ (¬x1 ∨ x2 ∨ ¬x3) - is an expression for sat problems
+
+Ф(Х0,х1,х2,х3)=(х0⊕х -1)∧(х2⊕х3)∧(х0⊕х2)∧(х1⊕х3)
+Ф(Х0,х1,х2,х3)=(х0∧х3)⊕(х1∧х2)⊕(х0∧х1∧х2)⊕(х0∧х1∧х3)⊕(х0∧х2∧х3)⊕(х1∧х2∧х3) - example of Transformation for expression in Boolean form (2x2 sudoku problem)

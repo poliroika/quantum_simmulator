@@ -1,0 +1,8 @@
+The best attempt to make a sat problem on Grover's algorithm
+I found what the problem is finally in the sat problem. For a small number of conditions, everything is OK, but the more of them, the more errors and
+amplitude windups and averaging in the diffuser in the future, so the more iterations, the more error becomes the correct answer. 
+They also write everywhere that the number of Grover iterations should be sqrt (the total number of qubits), but this is only an approximation
+that works on small examples, in fact, if you search well, you can understand that only the upper bound estimate is correct, which is different from task 
+to task and only its order is needed for practice. Therefore, for large tasks, a dance with a tambourine turns out, on the one hand, starting from the 
+upper bound, you must find the optimal number of iterations so that the answer is considered in principle, and on the other hand, try to do the number of 
+steps as little as possible, otherwise the error will become the answer.

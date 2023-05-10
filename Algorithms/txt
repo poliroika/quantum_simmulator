@@ -3,9 +3,10 @@ At the moment there is:
 2 - Bernstein - Vasinari algorithm
 3 - Quantum Fourier transform
 4 - Quantum phase Estimation
-5 - Grover 's algorithm
+5 - Grover 's algorithm(0-2v) (it works if you know the number of iterations, that is, we know the number of solutions, otherwise the wrong answers)
   a - For sat problems
   b - For problems representable in boolean form
+6 - Grover 's algorithm(3v) (it works in any case, no matter how many solutions, slower because it uses an additional qubit, explanations inside the file)
   ---
 More will be added in the near future!
 P.s For some reason, github incorrectly visualizes programs (cuts some blocks)
